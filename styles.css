@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: baseline;
+  align-items: center;
+  justify-content: center;
+  margin-top: 53px;
+  margin-bottom: 136px;
+}
+
+nav {
+  display: flex;
+  vertical-align: baseline;
+  margin-left: 280px;
+  cursor: pointer;
+  width: 600px;
+}
+
+dd {
+  display: flex;
+  vertical-align: baseline;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.logo-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.icon1 {
+  width: 42px;
+  height: 29px;
+}
+
+header button {
+  width: 184px;
+  background-color: rgba(107, 119, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 21px 35px 22px 35px;
+  border-style: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 41px;
+}
+
+.first-box {
+  width: 386px;
+  height: 383px;
+  background-color: rgba(244, 244, 244, 1);
+  padding: 58px 42px 58px 42px;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+div p {
+  line-height: 26px;
+  margin-bottom: 37px;
+  font-size: 18px;
+  color: rgba(125, 125, 125, 1);
+  font-weight: 400;
+}
+
+h6 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(107, 119, 229, 1);
+}
+
+.box-icone {
+  width: 72px;
+  height: 72px;
+}
+
+.background-img {
+  left: 0;
+  right: 0;
+  height: 557px;
+  margin-bottom: 130px;
+}
+
+.central-box {
+  width: 511px;
+  height: 270px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background-img {
+  position: relative;
+}
+
+h3 {
+  margin-bottom: 16px;
+}
+
+.Play-Buttom {
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+}
+
+.box-p {
+  color: rgba(55, 57, 63, 1);
+}
+
+.portret {
+  width: 386px;
+  height: 532px;
+  position: relative;
+}
+
+.title {
+  width: 341px;
+  height: 114px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 24px 69px 24px 69px;
+  position: absolute;
+  top: 396px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
